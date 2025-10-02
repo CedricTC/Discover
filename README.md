@@ -25,8 +25,8 @@ Google API kullanarak mekanların resimlerini ve kullanıcı yorumlarını göst
 
 ## Kurulum
 
-```bash
-git clone https://github.com/CedricTc/discover.git
+
+git clone https://github.com/CedricTc/Discover.git
 cd discover
 npm install
 npm run dev
