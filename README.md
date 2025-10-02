@@ -31,4 +31,5 @@ Discover, çevrenizdeki mekanları keşfetmenize olanak tanır. Google API'si ku
 **Not**: Proje kök dizininde bir `.env.local` dosyası oluşturun ve Google API anahtarlarınızı buraya ekleyin:
 
  GOOGLE_PLACE_KEY=senin_google_place_key
+ 
  NEXT_PUBLIC_GOOGLE_API_KEY=senin_google_api_key
