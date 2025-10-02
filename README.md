@@ -1,20 +1,19 @@
 # Discover
 
-Discover, çevrendeki mekanları keşfetmenizi sağlamak için geliştirilmiştir.
-Google API kullanarak mekanların resimlerini ve kullanıcı yorumlarını gösteriyor. Next.js ile geliştirdim.
+Discover, çevrenizdeki mekanları keşfetmenize olanak tanır. Google API'si kullanarak mekanların fotoğraflarını ve kullanıcı yorumlarını görüntülemenizi sağlar. Proje, Next.js ile geliştirilmiştir.
 
 ---
 
 ## Özellikler
 
 - Google API ile mekan arama  
-- Mekan resimlerini ve yorumlarını görüntüleme  
-- Yol Tarifi  
-- Mobil uyumlu ve hızlı  
+- Mekan fotoğrafları ve yorumlarını görüntüleme  
+- Yol tarifi alma  
+- Mobil uyumlu ve hızlı tasarım  
 
 ---
 
-## Teknolojiler
+## Kullanılan Teknolojiler
 
 - Next.js  
 - React  
@@ -23,17 +22,13 @@ Google API kullanarak mekanların resimlerini ve kullanıcı yorumlarını göst
 
 ---
 
-## Kurulum
-
-
-git clone https://github.com/CedricTc/Discover.git
-cd discover
-npm install
-npm run dev
-
 ## Ekran Görüntüleri
 
+![Ekran Görüntüsü 1](screenshots/1.PNG)  
+![Ekran Görüntüsü 2](screenshots/4.PNG)  
+![Ekran Görüntüsü 3](screenshots/3.PNG)
 
-![Screenshot 1](screenshots/1.PNG)  
-![Screenshot 2](screenshots/4.PNG)  
-![Screenshot 3](screenshots/3.PNG)
+**Not**: Proje kök dizininde bir `.env.local` dosyası oluşturun ve Google API anahtarlarınızı buraya ekleyin:
+
+ GOOGLE_PLACE_KEY=senin_google_place_key
+ NEXT_PUBLIC_GOOGLE_API_KEY=senin_google_api_key
